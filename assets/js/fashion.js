@@ -1,0 +1,19 @@
+$(document).ready(function()
+{
+	$("#search").focus(function()
+	{
+		$(this).css("background-color","#df07e7");
+	});
+	$("#search").blur(function()
+	{
+		$(this).css("background-color","");
+	});
+	$("#searchmail").focus(function()
+	{
+		$(this).css("background-color","#df07e7");
+	});
+	$("#searchmail").blur(function()
+	{
+		$(this).css("background-color","white");
+	});
+});
